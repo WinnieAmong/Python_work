@@ -1,0 +1,51 @@
+WHAT IS DEBUGGING?
+refers to the process of finding  and fixing errors in your source code
+
+WHAT IS A BUG?
+A bug is a written code which doesnot give us the desired output
+ais a glitch in software that prevents a program from achieving the desired output
+a mistake that prevents the programmer from having the desired 
+output/prevents the program from being executed properly
+
+TYPES/CLASSIFICATIONOF BUGS
+.syntax error(coding errors):errors that violates the syntax rules e.g 
+spelling errrors,placing arguments where they are not needed
+these occur during the build time,normally includes misuse of function,variables,parameters
+these are normally underlined by the IDE(intergrated development environment)
+
+.logical errors:these occur when steps taken to solve are not welldone./occur when the process of solving the task at hand
+the programme works perfectly but it doesnt produce the expected results.
+
+.Design bug: Is a an error introduced in the system during the design process causing the programme to do what it is programmed to do but not 
+
+.Runtime errors/bugs:These occur when the application tries to perform an operation that is not allowed
+and they are only discovered at the point of running the script or programme e.g when you divide any number by zero(0)
+any calculation with a string
+
+TESTING
+refers to trying to test the limit of your code.
+
+
+DEBUUGING CYCLE:
+Step1;writing code
+step2:check if it is working
+step3:this is dependent to step2.if its not working ,you  debugging
+step4:if its working then you are done then you go back to step1
+
+BUG SEEKING CYCLE:
+step1:writing the code/ coding
+step2:trying to break the code(TESTING)
+Step3:if you want to succeed in breaking it, then you need to DEBUG.
+step4:if you fail to break it, then youre okay and go back to step1
+
+PRINCIPLES OF DEBUGGING:
+1.Catch your bug as early as possible.
+bugs caught early are prettyeasy to fix because the details are still in your mind and you know where to look
+>catch your bug early
+>only have one bug at a time .(est early and test often)
+>look where you have been working or what you last changed if youre trying to find a bug
+>always work in small chunks.avoid large chunks of code
+(if youre using github always make small commits) 
+
+
+2.if the bug isnt caught early  it gets harder  to find because the details are not in your mind and you have a larger search space
