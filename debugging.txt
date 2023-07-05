@@ -59,3 +59,50 @@ STEPS OF DEBUGGING
 5.Fix the error don't patch it.
 6.Test the fix you have just done
 7.Look for similar buggs
+
+OTHER STEPS AND STRATEGIES
+>REPRODUCTIBILITY
+   The first step is to be able to reproduce the bug
+   understand the cause and effect before you change the code
+
+>REDUCTION
+  Finding the simplest test that exibits the bug ie reduce the search of the space bse bugs are not random
+  they come from somewhere within the code
+
+  >DEDUCTION
+   Understanding what the programme is doing,since you cannot be able to know there is a bug if you dont know what the code is actually supposed to be doing.
+
+>PAIR PROGRAMMING
+  Someone else maybe able to see wrong assumptions or mistakes you may have made
+   Helps you to explain and understand  what your are trying to achieve. code in beter detail as you will have to explain it to someone
+
+
+>LEVERAGING EXPERIENCE FROM OTHERS
+  Seeking solutions from more experienced programmers
+
+PREVENTIVE MEASURES TO AVOID BUGS
+ 1.Write clean and easy to read code ie indenting and not repeating yourself
+  2.Commenting :helps you figure out which part of your code you would like to correct
+  3.Make one change at a time
+  4. Test your code:
+        >The unit tests:
+          Test functional blocks of your code
+        >The intergration test
+          Test interraction btn the functional blocks of your code
+        >Test with invalid and valid data
+          Tesing if your code runs with invalid data
+   5.Defensive programming by adding error checking code and throwing exceptions(feedback)       
+   6.Priortizing which features can be ommitted
+   7.Incubating(sleeping )
+   8.Brainstorming
+
+   DEBUGGING TOOLS
+Breakpoints:
+   These help you to see which part of the code is currying the bug.
+   >printing out the contents of the variables
+
+
+   research and use a debugging tool of choice
+
+
+   OTHER DEBUGGING TOOLS
