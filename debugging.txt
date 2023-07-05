@@ -40,7 +40,7 @@ step4:if you fail to break it, then youre okay and go back to step1
 
 PRINCIPLES OF DEBUGGING:
 1.Catch your bug as early as possible.
-bugs caught early are prettyeasy to fix because the details are still in your mind and you know where to look
+bugs caught early are pretty easy to fix because the details are still in your mind and you know where to look
 >catch your bug early
 >only have one bug at a time .(est early and test often)
 >look where you have been working or what you last changed if youre trying to find a bug
@@ -49,3 +49,13 @@ bugs caught early are prettyeasy to fix because the details are still in your mi
 
 
 2.if the bug isnt caught early  it gets harder  to find because the details are not in your mind and you have a larger search space
+
+
+STEPS OF DEBUGGING
+1.Plan your attack
+2.Backup your files(using version control/using github to keep track of changes in the software)
+3.Isolate the block of code that could have the error ie commenting it output
+4.Finding the actual line/lines with the error or bugs
+5.Fix the error don't patch it.
+6.Test the fix you have just done
+7.Look for similar buggs
