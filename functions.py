@@ -100,3 +100,15 @@ def tupel():
     print (myTupel)
 
 tupel() 
+
+
+
+
+print("Number of pupils you want to register ")
+print("")
+first_name= raw_input("please enter your first_name: ")
+second_name=raw_nput("please enter your second name here: ")
+age=input("please enter your age: ")
+location=raw_input("please enter your current location: ")
+class_registering_for=raw_input("please enter ypur class here: ")
+parents_name=raw_input("please enter your parents names: ")

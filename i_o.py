@@ -19,3 +19,12 @@ salary = input ("please input your salary here: ")
 
 
 paye (salary,name)
+
+
+def example():
+   my_list = []
+   num = input ("Please enter your lucky number: ")
+   my_list.append(num)
+   print (my_list)
+
+example()

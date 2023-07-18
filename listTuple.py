@@ -22,7 +22,7 @@ print (osman)
 print(osman)
 print(fruits)
 print(fruits)
-    
+
 
 
 

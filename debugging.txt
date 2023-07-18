@@ -71,11 +71,12 @@ OTHER STEPS AND STRATEGIES
 
   >DEDUCTION
    Understanding what the programme is doing,since you cannot be able to know there is a bug if you dont know what the code is actually supposed to be doing.
+  know every line of you code and understand what it is doing
 
 >PAIR PROGRAMMING
   Someone else maybe able to see wrong assumptions or mistakes you may have made
    Helps you to explain and understand  what your are trying to achieve. code in beter detail as you will have to explain it to someone
-
+   They suggest to you what you can do if you didnt see it
 
 >LEVERAGING EXPERIENCE FROM OTHERS
   Seeking solutions from more experienced programmers
@@ -97,7 +98,7 @@ PREVENTIVE MEASURES TO AVOID BUGS
    8.Brainstorming
 
    DEBUGGING TOOLS
-Breakpoints:
+  Breakpoints:
    These help you to see which part of the code is currying the bug.
    >printing out the contents of the variables
 

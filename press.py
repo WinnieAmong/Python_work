@@ -7,30 +7,13 @@ def register_students():
         age = int(input("Enter age: "))
         class_name = input("Enter class name: ")
         location = input("Enter location: ")
-        parent_name = input("Enter parent's name: ")
-
-        # Perform conditional checks using if and else statements
-        if age < 3:
-            print("Student must be at least 3 years old to register.")
-            continue  # Skip the current iteration and move to the next student
-
-        if location == "":
-            print("Please enter a valid location.")
-            continue
-
-        if class_name == "":
-            print("Please enter a valid class name.")
-            continue
-
-        if parent_name == "":
-            print("Please enter a valid parent's name.")
-            continue
+        payment_mode = input("Enter mode of payment: ")
 
         student = {
             "age": age,
             "class_name": class_name,
             "location": location,
-            "parent_name": parent_name
+            "payment_mode": payment_mode
         }
 
         students.append(student)  # Add the student to the list
@@ -38,7 +21,7 @@ def register_students():
     return students
 
 # Example usage
-register_students()
+registered_students = register_students()
 
 # Print the registered students
 for student in registered_students:
@@ -46,4 +29,4 @@ for student in registered_students:
     print("Age:", student["age"])
     print("Class Name:", student["class_name"])
     print("Location:", student["location"])
-    print("Parent's Name:", student["parent_name"])
+    print("Mode of Payment:", student["payment_mode"])

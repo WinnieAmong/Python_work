@@ -44,8 +44,13 @@ cswork = int(input('Please enter your course work Marks: '))
 #the function cswork is called 
 courseWrk(cswork)
 """
-A function calculates the final coursework mark
-
-
+The function tests to give test1 and test2
+>checks if test1 is equal to test2 and return test1 if not equal or else return test2 to the caller
+>Takes in the input from users for test1 and test2 and stores them as intgers
+The function handles the coursework for a given input in the parameter
+>calculate the overall testmark and assign it to the testsMark
+>find the average of the cswork and testMark
+>the final cswork is got bymultiplying average cswork by 40%
+the final coursework is then called as an arguement
 
 """

@@ -1,0 +1,6 @@
+Python is a modular language (we can add features in python/any functionality can be added in python)
+A moduleis a folderthat has a script of files that can be reused
+python packages(libraryfor module)
+Each library has a specific function
+The core functionality of python is pil
+python anaconda is another distribution of python
